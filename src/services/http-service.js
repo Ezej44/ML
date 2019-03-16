@@ -8,11 +8,9 @@ class HttpService {
 
 	
 	getProduct(id){
-		console.log(this.servidor + 'items/' + id);
 		return axios.get(this.servidor + 'item/' + id)
 	}
 	getProducts(q){
-		console.log(this.servidor + 'items?q=' +q);
 		return axios.get(this.servidor + 'items?q=' +q)
 	}
 }
