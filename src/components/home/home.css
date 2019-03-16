@@ -1,0 +1,43 @@
+.Home-div{
+	min-height: 450px;
+	background-color: #EEEDEB;
+	top:0;
+	padding: 2%
+}
+
+/*.Lateral-div{
+	width: 10%;
+	min-height: 100vh;
+	background-color: #E9D985;
+	margin: 0px;
+	float: left;
+}
+*/
+.Img-home{
+	width: 200px;
+	height: 200px;
+}
+.Central-div{
+	width: 90%;
+	margin: auto;
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 550px 350px;
+  	min-height: 90vh;
+	
+}
+
+.Title-div{
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.Title-div h2{
+	background-color: rgba(0,0,0,0.4);
+	color: #CCFF66;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+	width: 50%;
+	margin:auto;
+}

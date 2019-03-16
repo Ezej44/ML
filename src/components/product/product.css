@@ -1,0 +1,86 @@
+.Princ-div{
+	width: 100%;
+	padding-top: 1%;
+	background-color: transparent;
+}
+.Product-box{
+	width: 70%;
+	margin: auto;
+	margin-top: 1%;
+	background-color: #fff;
+	padding: 5%;
+	
+}
+.Product-div-image{
+	text-align: center;
+	display: inline-block;
+	width: 60%;
+}
+.Img-product {
+	width: 250px;
+	height: 300px;
+
+}
+
+.Product-div-info{
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+	margin: 0;
+	margin-top: 10%;
+	float: right;
+}
+.Product-div-info button{
+	background-color: #008CBA; 
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px; 
+	cursor: pointer;
+}
+.Product-description{
+	font-size: 12px;
+	padding-top: 5%;
+	width: 100%;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.Product-description{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.Img-product {
+		width: 150px;
+		height: 175px;
+	}
+	.Product-div-info button{
+		padding: 7px 16px;
+		font-size: 12px;
+	}
+	.Product-div-info h4,h5{
+		margin: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	.Img-product {
+		width: 120px;
+		height: 160px;
+	}
+
+	@media only screen and (max-width: 200px) {
+		.Img-product {
+			width: 60px;
+			height: 80px;
+		}
+		
+	}
+}

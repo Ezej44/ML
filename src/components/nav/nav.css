@@ -1,0 +1,66 @@
+.Nav{
+    width: 100%;
+    min-height: 30px;
+    background-color: #FFF159;
+  }
+
+  .Div-logo{
+    width: 15%;
+    display: inline-block;
+  }
+
+  .Img-logo{
+   display: inline-block!important;
+   border-style: none;
+   vertical-align: middle;
+   height: 30px;
+   cursor: pointer;
+   
+ }
+ 
+ .Input-box{
+  padding: 4px;
+  width: 80%;
+  display: inline-block;
+}
+
+.Input-box input{
+  width: 70%;
+  margin:auto;
+  font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-size:16px;
+  border: none;
+  color: #000;
+  padding: 2px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-right: 4px;
+}
+.Input-box a{
+  text-decoration: none;
+
+}
+
+.Input-box input::placeholder {
+  color: #E6E6E9;
+  font-size: 1.2em;
+  font-style: 'Roboto';
+}
+
+.Input-box Link {
+
+  padding: 4px;
+  background-color:  #E6E6E9;
+  border:none;
+  border-radius: 2px;
+
+}
+
+.Input-box button :hover{
+  cursor:pointer;
+}
+.Input-box button i {
+
+  color: white;
+
+}

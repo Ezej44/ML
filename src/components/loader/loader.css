@@ -1,0 +1,37 @@
+.loader {
+    border: 16px solid #ffffff; /* Light grey */
+    border-top: 16px solid #fff159; /* Blue */
+    background-color: transparent;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 20%;
+    animation: spin 2s linear infinite;
+}
+ .loaderSize{
+  background: rgba(0,0,0,0.2);
+    min-height: 100vh;
+ 	  z-index: 3000 !important;
+    position:fixed !important;
+ 		margin:auto;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+.loaderSize h2{
+	font-weight: bold;
+	animation: letters 2s ease-in infinite;
+}
+   
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes letters {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1.6);}
+}

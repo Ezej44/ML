@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -21,7 +21,13 @@
 
 .App-link {
   color: #61dafb;
+  }*/
+
+.Princ{
+  min-height: 90vh;
+  background-color: #E6E6E9;
 }
+
 
 @keyframes App-logo-spin {
   from {
